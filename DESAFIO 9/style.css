@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(in oklab, rgb(133, 228, 133), rgb(230, 165, 46), rgb(94, 62, 102));
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

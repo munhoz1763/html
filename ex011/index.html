@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <!-- Para começar com a grande e ir diminuindo quando diminuir a imagem
+        <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-media.png"type="image/png">
+        <img src="imagens/foto-grande.png" alt="imagem flexivel">
+    </picture>
+    -->
+
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-grande.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-pequena.png" alt="foto-pequena">
+    </picture>
+<!--Para começar com a pequena e ir aumentando quando a imagem for aumentada-->
+    <h1>Vamos aprender a por audio</h1>
+    <p>Tambem podemos por audio nos sites</p>
+    <audio src="midia/Ghost Dance - Kevin MacLeod.mp3"controls ></audio>
+    <hr>
+
+    <h1>Mexendo nos audios</h1>
+    <p>Reproduzindo</p>
+    <audio preload="metadata"controls>
+        <source src="midia/Ghost Dance - Kevin MacLeod.mp3" type="audio/mpeg">
+        <source src="midia/Ghost Dance - Kevin MacLeod.mp3" type="audio/ogg">
+        <source src="midia/Ghost Dance - Kevin MacLeod.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o ádio <a href="midia/Ghost Dance - Kevin MacLeod.mp3" download="">CLIQUE AQUI</a> para baixar o arquivo mp3</p>
+
+</body>
+</html>

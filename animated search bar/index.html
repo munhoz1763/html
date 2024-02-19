@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+<style>
+    body {
+        background: linear-gradient(45deg, rgb(117, 117, 117), rgb(82, 82, 82));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+    }
+
+    .container {
+        display: flex;
+        background: #2f3640;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    input {
+        background: none;
+        border: none;
+        transition: 0.4s;
+        width: 0px;
+        height: 40px;
+        color: white;
+        border-radius: 50px;
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #2f3640;
+        color: white;
+    }
+
+    .container:hover input {
+        width: 200px;
+        margin-right: 10px;
+        
+    }
+
+    .container:hover button {
+        background: #f0b23a;
+        color: #2f3640;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <input placeholder="search">
+        <button>
+            <i class="fa-solid fa-pen"></i>
+        </button>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

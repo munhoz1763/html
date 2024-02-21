@@ -4,11 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Configuraçoes de imagem</title>
 </head>
+<style>
+    .imagem{
+        display: inline-block;
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+    }
+    #imagem-normal{
+        background-color: blanchedalmond;
+    }
+    #imagem-gradient{
+        background-image: linear-gradient(in oklab, #000000,rgb(255, 8, 8));
+    }
+    #imagem-foto{
+        background-image: url(pattern003.png);
+    }
+    body{
+        background-image: url(wallpaper004.jpg);
+    }
+
+</style>
 
 <body>
-    
+    <div class="imagem" id="imagem-normal">
+        
+    </div>
+    <div class="imagem" id="imagem-gradient">
+
+    </div>
+    <div class="imagem" id="imagem-foto">
+        
+    </div>
 </body>
 
 </html>

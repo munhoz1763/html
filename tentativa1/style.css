@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Taviraj&family=Teko&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #061126;
+    color: #899080;
+
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF2E780;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+ul  a{
+    padding: 5px;
+    color: #0099ff;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: auto;
+    align-items: center;
+    padding: 1.5rem 10rem;
+    flex-direction: row;
+
+}
+
+.logo {
+    font-family: "Bungee", sans-serif;
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    
+    
+}
+.menu a:hover {
+    background-color: #F2CD5E;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+
+}
+.dofus {
+    color: #F2CD5E;
+    font-weight: 600;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    padding: 1rem ;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background-image: url(xelorwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.hero {
+
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: center;
+    padding: 0rem 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+.destaque {
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.azul {
+    color: #0077ff;
+    text-decoration: underline;
+}
+
+.vermelho {
+    color: red;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: "Bungee", sans-serif;
+    color: #F2DCC2;
+    font-size: 2rem;
+    text-shadow: 1px 2px black;
+}
+h3 > a:hover{
+    color: #f25e5e;
+    text-decoration: underline;
+    
+}
+hr {
+    border-color: #F2DCC2;
+}
+
+.hero-subtitulo {
+    font-family: "Taviraj", serif;
+    color: #F2DCC2;
+    font-size: 1.5rem;
+    text-shadow: 1px 2px black;
+}
+
+.hero-imagens-container {
+    max-width: 55%;
+    column-count: 4;
+    gap: -1rem;
+    margin: -2rem;
+
+}
+
+.hero-imagens-container>figure>img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.botao-container {
+    width: 100%;
+    max-width: 1120px;
+    padding: 1rem;
+    margin: auto;
+    transform: translate(0, -50%);
+}
+
+.button {
+    border: none;
+
+}
+
+.xelorium {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+    background: #03256450;
+}
+
+.xelorium-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.xelorium-titulo {
+    font-family: "Taviraj", serif;
+    text-transform: uppercase;
+    text-shadow: 1px 2px black;
+    color: #F2CD5E;
+    font-size: 2rem;
+}
+
+.xelorium-subtitulo {
+    font-family: "Taviraj", serif;
+    font-size: 1rem;
+    color: #F2CD5E;
+}
+
+.xelorium-card-container {
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.xelorium-card {
+    background: #06112648;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+
+}
+
+.xelorium-card-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    gap: 5rem;
+
+}
+
+.xelorium-card-cabecalho-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.xelorium-card-titulo {
+    color: #59283A;
+    font-family: "Taviraj", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.avaliacao {
+    color: #d48560;
+    font-family: "Taviraj", serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.descricao {
+    color: #9c621b;
+    font-family: "Taviraj", serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+
+.autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.autor>img {
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+
+.autor-nome {
+    color: #0163be;
+    font-family: "Taviraj", serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#06112648;
+}
+
+.footer-copy{
+    color: #F2DCC2;
+    font-family: "Taviraj", serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-autor{
+    color: #f2dcc28e;
+    font-family: "Taviraj", serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-autor a:hover{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

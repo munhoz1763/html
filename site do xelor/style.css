@@ -8,7 +8,9 @@
     box-sizing: border-box;
 }
 
-body {
+
+
+body{
     background: #061126;
     color: #899080;
 
@@ -18,6 +20,7 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
 }
+
 
 a {
     text-decoration: none;

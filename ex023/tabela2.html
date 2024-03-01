@@ -24,6 +24,7 @@
         align-items: center;
         margin: auto;
         width: 600px;
+        position: relative;
         
     }
 
@@ -39,9 +40,13 @@
         background: gray;
         color: white;
     }
-
-    td,
-    th {
+     
+    thead > tr > th{
+        position: sticky;
+        top: -1px;
+        background:gray ;
+    }
+    td, th {
         border: 1px solid black;
         padding: 10px;
     }
@@ -75,11 +80,26 @@
         color: rgb(65, 42, 165);
         font-weight: 300;
     }
+
+    tbody > tr:nth-child(2n){
+        background-color: rgba(110, 68, 13, 0.418);
+
+    }
+
+    caption{
+        background: gray;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        margin-right: 6.9rem;
+    }
 </style>
 
 <body>
+   
     <h1>População do brasil</h1>
+    
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
                 <th class="tabela">Região</th>
@@ -153,6 +173,13 @@
             <td>203.062.512</td>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora fugiat labore dolorum, deserunt nesciunt beatae repudiandae voluptate consequuntur rerum provident officiis. Itaque rerum natus veritatis, veniam aliquid quia praesentium quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id reprehenderit, omnis ut quae error labore repellendus adipisci, aliquam minima quidem, veniam modi et ullam dolorum nemo impedit similique necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis unde. Eaque laboriosam nostrum, aliquid odit rem eos tempora labore odio cupiditate hic perspiciatis nisi culpa, dolorum quas aspernatur explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora fugiat labore dolorum, deserunt nesciunt beatae repudiandae voluptate consequuntur rerum provident officiis. Itaque rerum natus veritatis, veniam aliquid quia praesentium quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id reprehenderit, omnis ut quae error labore repellendus adipisci, aliquam minima quidem, veniam modi et ullam dolorum nemo impedit similique necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis unde. Eaque laboriosam nostrum, aliquid odit rem eos tempora labore odio cupiditate hic perspiciatis nisi culpa, dolorum quas aspernatur explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora fugiat labore dolorum, deserunt nesciunt beatae repudiandae voluptate consequuntur rerum provident officiis. Itaque rerum natus veritatis, veniam aliquid quia praesentium quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id reprehenderit, omnis ut quae error labore repellendus adipisci, aliquam minima quidem, veniam modi et ullam dolorum nemo impedit similique necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis unde. Eaque laboriosam nostrum, aliquid odit rem eos tempora labore odio cupiditate hic perspiciatis nisi culpa, dolorum quas aspernatur explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora fugiat labore dolorum, deserunt nesciunt beatae repudiandae voluptate consequuntur rerum provident officiis. Itaque rerum natus veritatis, veniam aliquid quia praesentium quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id reprehenderit, omnis ut quae error labore repellendus adipisci, aliquam minima quidem, veniam modi et ullam dolorum nemo impedit similique necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis unde. Eaque laboriosam nostrum, aliquid odit rem eos tempora labore odio cupiditate hic perspiciatis nisi culpa, dolorum quas aspernatur explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora fugiat labore dolorum, deserunt nesciunt beatae repudiandae voluptate consequuntur rerum provident officiis. Itaque rerum natus veritatis, veniam aliquid quia praesentium quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id reprehenderit, omnis ut quae error labore repellendus adipisci, aliquam minima quidem, veniam modi et ullam dolorum nemo impedit similique necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis unde. Eaque laboriosam nostrum, aliquid odit rem eos tempora labore odio cupiditate hic perspiciatis nisi culpa, dolorum quas aspernatur explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora fugiat labore dolorum, deserunt nesciunt beatae repudiandae voluptate consequuntur rerum provident officiis. Itaque rerum natus veritatis, veniam aliquid quia praesentium quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id reprehenderit, omnis ut quae error labore repellendus adipisci, aliquam minima quidem, veniam modi et ullam dolorum nemo impedit similique necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis unde. Eaque laboriosam nostrum, aliquid odit rem eos tempora labore odio cupiditate hic perspiciatis nisi culpa, dolorum quas aspernatur explicabo.</p>
+
 </body>
 
 </html>

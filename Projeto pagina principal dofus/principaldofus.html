@@ -5,36 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dofus Personagens</title>
-    
+    <link rel="shortcut icon" href="5250-dofus.png" type="image/x-icon">
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
     body {
         background-image: url(universo-dofus.jpg);
-        
-        
-        
+
+
+
     }
 
     h1 {
         font-family: "Arvo", serif;
-        font-weight: 400;
+        font-weight: 500;
         text-transform: uppercase;
         text-align: center;
         margin: auto;
-        color:  #469AB2;
+        color: #469AB2;
         padding: 4rem;
     }
-    p{
+
+    p {
         font-family: "Arvo", serif;
-        font-weight: 400;
+        font-weight: 500;
         text-decoration: underline;
         text-align: center;
         margin: auto;
-        color:  #469AB2;
-        
+        color: #469AB2;
+        font-size: larger;
+
     }
+
     .container {
         display: flex;
         flex-direction: row;
@@ -43,10 +46,11 @@
         height: 50vh;
         width: 100%;
         gap: 1rem;
-        
+
     }
+
     @media screen and (max-width:600px) {
-        .container{
+        .container {
             margin-top: 2rem;
             flex-wrap: wrap;
         }
@@ -55,29 +59,30 @@
     .img-box {
         background: var(--img)center;
         background-size: cover;
-        
+
         position: relative;
         transition: 300ms all ease;
         filter: grayscale(50%) opacity(35%);
-        
+
 
     }
-   
-    .img-box:hover{
-        
+
+    .img-box:hover {
+
         filter: grayscale(0%) opacity(100%);
     }
 </style>
 
 
 <body>
-
-    <h1>"Deuses do Mundo dos doze"</h1>
-    <p>Selecione um dos deuses e veja o poder de cada um</p>
+    
+    <h1>" Deuses do Mundo dos doze "</h1>
+    
+    <p>  Selecione um dos deuses e veja os seus poderes</p>
     <div class="container">
         <div class="img-box"> <a href="Projeto xelor/projetoxelor.html"><img src="godxelor.jpg" alt="xelor"></a></div>
 
-        <div  class="img-box"> <img src="sacrier-redimensionado.jpg" alt="sacrier-redimensionado"></div>
+        <div class="img-box"> <img src="sacrier-redimensionado.jpg" alt="sacrier-redimensionado"></div>
 
         <div class="img-box"> <img src="iop-redimensionado.jpg" alt="iop-redimensionado"></div>
     </div>

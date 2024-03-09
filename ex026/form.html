@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+</head>
+<script>
+     
+     function calcIdade(){
+        let atual = new Date().getFullYear()
+        iidade.innerHTML = Number(atual) - Number(iano.value)
+     }
+</script>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <p>
+                <label for="in1">Número:</label>
+                <input type="number" name="n1" id="in1" min="0" max="50" maxlength="2" required
+                    oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+            <p>
+                <label for="in2">Número:</label>
+                <input type="number" name="n2" id="in2" min="0" max="50" required
+                    oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+            <p>
+                <label for="isoma">Soma:</label>
+                <output name="soma" id="isoma">0</output>
+            </p>
+            <p>
+                <label for="inum"></label>
+                <input type="range" name="numero" id="inum" min="0" max="50" value="25"
+                    oninput="ival.innerHTML = Number(inum.value)">
+                <output id="ival">25</output>
+            </p>
+            
+
+        <p>
+            <label for="iano">Em que ano você naceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2024" value="2000" oninput="calcIdade()">
+        </p>
+
+        <p>
+            <label for="iidade">Sua idade é:</label>
+            <output id="iidade">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </fielset>
+    </form>
+
+
+
+
+
+</body>
+
+</html>

@@ -11,7 +11,7 @@
         }
 
         fieldset {
-            width: 200px;
+            width: 300px;
             padding: 20px;
 
 
@@ -44,7 +44,7 @@
         </fieldset>
         <h1>Esportes favoritos</h1>
         <fieldset>
-            
+
             <label for="ibasquete"> Basquete</label>
             <input type="checkbox" name="basquete" id="ibasquete">
 
@@ -53,7 +53,7 @@
 
             <label for="ifutebol">Futebol</label>
             <input type="checkbox" name="futebol" id="ifutebol">
-            
+
             <label for="inenhum">Nenhum</label>
             <input type="checkbox" name="nenhum" id="inenhum">
 
@@ -66,10 +66,44 @@
             <label for="idfem">Feminino</label>
             <input type="radio" name="sexo" id="idfem">
 
+            <label for="irange"></label>
+            <input type="range" name="range" id="irange">
 
         </fieldset>
+
+        <fieldset>
+            <label for="iselecao">Estado:</label>
+            <select name="selecao" id="iselecao">
+            <option value="estado">--ESTADO--</option>
+            <optgroup label="ESTADOS">
+                <option value="rj">Rio de janeiro</option>
+                <option value="pr">Parana</option>
+                <option value="sp">Sao Paulo</option>
+            </optgroup>
+            </select>
+            <p>
+                <label for="iprof">Profissao:</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option value="LoL">League of legends</option>
+                    <option value="Vava">Valorant</option>
+                    <option value="Wakfu">Ankama</option>
+                </datalist>
+            </p>
+        </fieldset>
+
+
+        <label for="imsg">Mensagem:</label><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+
         <p><input type="submit" value="Enviar"> <input type="reset" value="Limpar"></p>
+
+
+
+
     </form>
+
+
 
 </body>
 

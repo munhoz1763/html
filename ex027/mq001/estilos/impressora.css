@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*Para impressora */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+html{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+p{
+    padding: 10px;
+}
+menu{
+    display: none;
+}
+article{
+    width: 100%;
+}
+
+article::after{
+    content: 'Foi produzido por luiz felipe';
+}

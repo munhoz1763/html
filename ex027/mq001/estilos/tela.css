@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*Para tela */
+
+body{
+    background: black;
+}
+h1{
+    padding: 100px;
+}

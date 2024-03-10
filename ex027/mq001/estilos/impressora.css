@@ -3,11 +3,7 @@
 /*Para impressora */
 
 
-*{
-    padding: 0;
-    margin: 0;
-    
-}
+
 
 html{
 
@@ -18,9 +14,15 @@ html{
 p{
     padding: 10px;
 }
-menu{
-    display: none;
+ul{
+    padding: 1rem;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
 }
+
 article{
     width: 100%;
 }

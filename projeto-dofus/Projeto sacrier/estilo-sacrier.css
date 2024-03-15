@@ -213,6 +213,24 @@ img{
     color: #F8902F;
 }
 
+.cabecalho-noticias p{
+    color: #0d0155;
+}
+.noticia-assunto a {
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.separador-massacre{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+    gap: 3rem;
+}
+
+
+
 
 .footer-sacrier{
     background: #731414;

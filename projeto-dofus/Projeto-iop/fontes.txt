@@ -1,0 +1,13 @@
+fontes
+
+font-family: "Metal Mania", system-ui;
+font-weight: 400;
+
+font-family: "Imbue", serif;
+font-optical-sizing: auto;
+
+font-family: "Anton", sans-serif;
+font-weight: 400;
+
+font-family: "Rakkas", serif;
+font-weight: 400;

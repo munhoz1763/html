@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/*mobile first*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Imbue:opsz,wght@10..100,100..900&family=Metal+Mania&family=Rakkas&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+
+.span-header {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-size: 25px;
+    color: #161313;
+}
+
+.dofus {
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #eeeb2c;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #A23833;
+    padding: 1rem;
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+
+}
+
+#burguer:hover {
+    background-color: #f39d09;
+    color: black;
+    cursor: pointer;
+}
+
+#burguer {
+
+    background-color: #161313;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#itens {
+    background-color: #161313;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+ul>li>a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+ul>li>a:hover {
+    color: #000000;
+    background-color: #f39d09;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+#cabecalho-principal {
+    background-image: url(godiop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right right;
+
+    width: 100vw;
+    height: 30rem;
+}
+
+h1 {
+    padding-left: 0.5rem;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+#cabecalho-principal>hr {
+    width: 18rem;
+}
+
+.span-section-cabecalho {
+    
+    padding-left: 0.5rem;
+    font-size: 0.9rem;
+    font-family: "Rakkas", serif;
+    font-weight: 500;
+    color: #3a0101;
+    text-transform: uppercase;
+}
+.p-section-cabecalho{
+    padding-left: 0.5rem;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}

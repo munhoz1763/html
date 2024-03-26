@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="mediaq.css">
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        
+            <span id="burguer" onclick="clickMenu()" class="material-symbols-outlined">lists</span>
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Builds</a></li>
+                    <li><a href="#">Novidades</a></li>
+                </ul>
+            </menu>
+        <nav>
+            <span class="span-header">lutar com coração e a espada de iop</span>
+            <span class="dofus">dofus</span>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="cabecalho-principal">
+            <span class="span-section-cabecalho">Mundo dos doze</span>
+            <h1>Iop o deus da guerra</h1>
+            <hr>
+            <p class="p-section-cabecalho">destruindo inimigos <br> com a sua cólera</p>
+        </section>
+    </main>
+
+
+
+   
+    <footer>
+      
+    </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }
+            else{
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>

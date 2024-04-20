@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela incial</title>
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tela-grande.css">
+</head>
+
+<body>
+
+
+    <header>
+        
+        <nav>
+            
+            <ul>
+                <h1>Patricia Munhoz</h1>
+                <li><a href="#">Tela incial</a></li>
+                <li><a href="#">Tupperware</a></li>
+                <li><a href="#">Garrafas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="imagem">
+            <button id="imagem-01" class="botao-imagem" onclick="functionClicou1()"> </button>
+            <button id="imagem-02" class="botao-imagem" onclick="functionClicou2()"> </button>
+            <button id="imagem-03" class="botao-imagem" onclick="functionClicou3()"> </button>
+
+        </div>
+        <div id="atualizado">
+            <h2>Atualizado dia: 07/04/2024</h2>
+        </div>
+
+    </main>
+
+    <script>
+        var imagem = document.getElementById('imagem');
+        function functionClicou1() {
+            imagem.style.backgroundImage = "url('imagem-1.jpg')";
+        }
+        function functionClicou2() {
+            imagem.style.backgroundImage = "url('imagem-2.jpg')";
+            imagem.style.backgroundSize = "cover";
+            imagem.style.backgroundPosition = "center";
+
+        }
+        function functionClicou3() {
+            imagem.style.backgroundImage = "url('imagem-3.jpg')"; // Define outra imagem de fundo
+            imagem.style.backgroundSize = "cover";
+            imagem.style.backgroundPosition = "center";
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>
